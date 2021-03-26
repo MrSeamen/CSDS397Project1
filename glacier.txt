@@ -1,0 +1,5 @@
+Name: Glacier National Park;
+Description: Glacier National Park is an American national park located in northwestern Montana, on the Canada–United States border, adjacent to the Canadian provinces of Alberta and British Columbia. The park encompasses over 1 million acres and includes parts of two mountain ranges, over 130 named lakes, more than 1,000 different species of plants, and hundreds of species of animals. This vast pristine ecosystem is the centerpiece of what has been referred to as the "Crown of the Continent Ecosystem," a region of protected land encompassing 16,000 square miles.;
+Size: 1,583 sq miles;
+Establishment: May 11, 1910;
+Visitors: 3.05 million annual visitors;

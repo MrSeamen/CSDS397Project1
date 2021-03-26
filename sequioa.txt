@@ -1,0 +1,5 @@
+Name: Sequoia National Park;
+Description: Sequoia National Park is an American national park in the southern Sierra Nevada east of Visalia, California. The park was established on September 25, 1890 to protect 404,064 acres of forested mountainous terrain. Encompassing a vertical relief of nearly 13,000 feet, the park contains the highest point in the contiguous United States, Mount Whitney, at 14,505 feet above sea level. The park is south of, and contiguous with, Kings Canyon National Park; both parks are administered by the National Park Service together as the Sequoia and Kings Canyon National Parks. UNESCO designated the areas as Sequoia-Kings Canyon Biosphere Reserve in 1976.;
+Size: 404,064 acres;
+Establishment: September 25, 1890;
+Visitors: 1.28 million annual visitors;

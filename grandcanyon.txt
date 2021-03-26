@@ -1,0 +1,5 @@
+Name: Grand Canyon National Park;
+Description: Grand Canyon National Park, located in northwestern Arizona, is the 15th site in the United States to have been named as a national park. The park's central feature is the Grand Canyon, a gorge of the Colorado River, which is often considered one of the Wonders of the World. The park, which covers 1,217,262 acres of unincorporated area in Coconino and Mohave counties, received more than six million recreational visitors in 2017, which is the second highest count of all American national parks after Great Smoky Mountains National Park. The Grand Canyon was designated a World Heritage Site by UNESCO in 1979. The park celebrated its 100th anniversary on February 26, 2019.;
+Size: 1,217,262 acres;
+Establishment: February 26, 1919;
+Visitors: 5.97 million annual visitors;
