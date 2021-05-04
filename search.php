@@ -16,19 +16,37 @@ function readfor($parkname, $parkinfo) {
 	echo $file;
 }
 
+
 $output = "";
 $parks = scandir("/usr/lib/cgi-bin/project1/parks");
-
 foreach ($parks as $park) {	
 	if ($park==$lookup) {
+		/*$imagesrc = glob('/usr/lib/cgi-bin/project1/parkimage/'.$park.".png");
+		if (!file_exists($imagesrc)) {
+			$imagesrc = glob('/usr/lib/cgi-bin/project1/parkimage/'.$park.".jpg");
+			if (!file_exists($imagesrc)) {
+				$imagesrc = "Image does not exist";
+			} else {
+				$image = '<img src="'.$imagesrc.'"/><br />';
+			}
+		} elseif ($imagesrc != "Image does not exist") {
+			$image = '<img src="'.$imagesrc.'"/><br />';
+		} else {
+			$image = $imagesrc;
+		}*/
+
 		if ($aspect=="lookup") {
 			$file = '/usr/lib/cgi-bin/project1/parks/'.$park;
 			$output = file_get_contents($file);
 			echo $output;
+			echo "<br>";
+			echo "<form action='".$name.".php'>";
+                        echo "<input type='submit' value='Display Image'><br>";
+			//file_get_contents($image);
 		} elseif ($aspect=="description") {
 			$file = '/usr/lib/cgi-bin/project1/parks/'.$park;
 			$output = readfor($file, $aspect);
-			echo $output;		
+			echo $outpuit;		
 		} elseif ($aspect=="size") {
 			$file = '/usr/lib/cgi-bin/project1/parks/'.$park;
 			$output = readfor($file, $aspect);
@@ -41,11 +59,21 @@ foreach ($parks as $park) {
 			$file = '/usr/lib/cgi-bin/project1/parks/'.$park;
 			$output = readfor($file, $aspect);
 			echo $output;
+		} elseif ($aspect=="image" || $aspect=="images") {	
+			//$image = file_get_contents('glacier.php');			
+			//echo $image;
+			echo "<form action='".$name.".php'>";
+			echo "<input type='submit' value='Display Image'><br>";
 		} else {
 			echo "<p>$info is not recognized, search is defaulted to a regular look up for $name.</p><br>";
 			$file = '/usr/lib/cgi-bin/project1/parks/'.$park;
 			$output = file_get_contents($file);
 			echo $output;
+			echo "<br>";
+			//echo $image;
+			//file_get_contents($image);
+			echo "<form action='".$name.".php'>";
+                        echo "<input type='submit' value='Display Image'><br>";
 		}	
 		$found=TRUE;
 	}
